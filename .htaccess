@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^([a-z0-9A-Z]+)$ index.php?cmd=$1
+RewriteRule ^([a-z0-9A-Z]+)\/([0-999]+)$ index.php?cmd=$1&id=$2
